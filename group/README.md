@@ -1,38 +1,63 @@
-Fitness Tracker App
-Overview
-Welcome to the Fitness Tracker App! This application is designed to help you track your workouts efficiently. It includes several key components, each with its own specific functionality. The app utilizes a db.json server running on port 3001 to store and manage workout data.
+# Fitness Tracker App
 
-Contributors
-Justin
-Joses
-Alvine
-Peter
-Maureen
+The Fitness Tracker App is a web application built with React that allows users to log and track their workouts. Users can create, read, update, and delete workout entries, as well as view summarized statistics and a visual representation of the distribution of exercise types.
 
-Components
+## Features
 
-1. WorkoutForm (by Joses)
-The WorkoutForm component is responsible for rendering a form where users can input details for a new workout. It manages the state of form inputs and handles the submission of the form.
+- **Log Workouts**: Create workout entries with details such as exercise type, duration, and date.
+- **Update Entries**: Edit or delete existing workout entries for accuracy.
+- **Visual Representation**: View a visual representation of the distribution of exercise types.
 
-2. WorkoutList (by Justin)
-The WorkoutList component displays a list of workouts with their details. It involves mapping through the workout data and rendering each workout. Additionally, it may include buttons for editing or deleting workouts.
+## Components
 
-3. WorkoutCard (by Alvine)
-The WorkoutItem component represents an individual workout item within the WorkoutList. It renders the details of a workout, such as exercise type, duration, date, and notes. This component includes buttons for editing or deleting the specific workout.
+- **App**: The main component that orchestrates the app and manages state.
+- **NavBar**: Bootstrap navigation bar for easy navigation.
+- **WorkoutForm**: Form for logging and editing workouts.
+- **WorkoutList**: Display a list of workouts.
+- **WorkoutItem**: Display details of an individual workout.
+- **DeleteConfirmationModal**: Modal component for confirming workout deletion.
 
-4. EditWorkoutForm (by Peter)
-When a user clicks the "Edit" button on a workout, the EditWorkoutForm component is responsible for rendering a form with pre-filled values for that workout. It manages the state of the form inputs and handles the submission to update the workout.
+## Dependencies
 
-5. DeleteConfirmationModal (by Maureen)
-When a user clicks the "Delete" button on a workout, the DeleteConfirmationModal component can appear to confirm the deletion. It manages the modal state and provides options for confirming or canceling the deletion.
+- **react-bootstrap**: UI components for a responsive and visually appealing design.
+- **recharts**: Library for creating charts in React.
+- **json-server**: Mock server for testing and development.
 
-Server Information
-The app relies on a db.json server running on port 3001 to store and retrieve workout data.
+## Installation
 
-Getting Started
+1. Clone the repository:
+   git clone https://github.com/josesyanwa/fitness-tracker
 
--Clone the repository.
--Navigate to the project directory.
--Install dependencies with npm install.
--Start the app with npm start.
--Access the app through your browser at http://localhost:3000
+2. Install dependencies:
+cd fitness-tracker-app
+npm install
+
+3. Start the development server:
+npm start
+
+4. Open the app in your browser:
+http://localhost:3000
+
+
+## Usage
+
+1. Log a new workout by filling out the form on the main page.
+2. View the list of workouts and their details.
+3. Edit or delete existing workouts using the provided buttons.
+4. Check the statistics and exercise distribution for an overview of your fitness activities.
+
+## Contributing
+
+Contributions are welcome! If you find a bug or have a feature request, please open an issue. Pull requests are also appreciated.
+
+## License
+
+This Application project is licensed by:
+- Joses Wasike
+- Alvine Allan
+- Peter Nyagol
+- Justine Onyango
+- Maureen Wanjugu
+
+NB: This was closely supervised by Edwinna Bikeri - our TM.
+
