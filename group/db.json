@@ -1,0 +1,88 @@
+{
+  "workouts": [
+    {
+      "id": 12,
+      "exercise": "Dancing up and down",
+      "duration": "35",
+      "date": "2023-02-12",
+      "notes": "Latin dance class"
+    },
+    {
+      "exercise": "walking",
+      "duration": "30",
+      "date": "2013-12-30",
+      "notes": "yes yes",
+      "id": 13
+    },
+    {
+      "exercise": "qwewrwe",
+      "duration": "5",
+      "date": "2023-11-08",
+      "notes": "asdasdadadadada",
+      "id": 14
+    },
+    {
+      "exercise": "qwewrwe",
+      "duration": "4",
+      "date": "2023-11-02",
+      "notes": "jghuf",
+      "id": 15
+    },
+    {
+      "exercise": "asdasasa",
+      "duration": "8",
+      "date": "2023-11-01",
+      "notes": "sdssds",
+      "id": 16
+    },
+    {
+      "exercise": "sdfsfsdfsdfsdfsdfs",
+      "duration": "5",
+      "date": "2023-11-24",
+      "notes": "dfsdfsdfsdfsdfsdf",
+      "id": 17
+    },
+    {
+      "exercise": "sdrfwerwerwerwerwerwerwe",
+      "duration": "1",
+      "date": "2023-11-09",
+      "notes": "ererwerwer",
+      "id": 18
+    },
+    {
+      "exercise": "sdsdsdsdsdsds",
+      "duration": "18",
+      "date": "2023-11-06",
+      "notes": "dsddsdsdsds",
+      "id": 19
+    },
+    {
+      "exercise": "sdsdsdsdsdsdsdasdsda",
+      "duration": "5",
+      "date": "2023-11-01",
+      "notes": "sdasdasdas",
+      "id": 20
+    },
+    {
+      "exercise": "dsdasdasda",
+      "duration": "2",
+      "date": "2023-11-02",
+      "notes": "xasadasdas",
+      "id": 21
+    },
+    {
+      "exercise": "dsdadasd",
+      "duration": "2222",
+      "date": "2023-11-09",
+      "notes": "sfsfsdfsfasfas",
+      "id": 22
+    },
+    {
+      "exercise": "pushups",
+      "duration": "20",
+      "date": "2023-11-15",
+      "notes": "just push",
+      "id": 23
+    }
+  ]
+}
